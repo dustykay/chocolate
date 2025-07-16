@@ -27,6 +27,10 @@ body {
   overflow: hidden;
 }
 
+.header {
+  padding: 28px 0;
+}
+
 .header-logo {
   font-weight: 700;
   font-size: 18px;
@@ -48,6 +52,8 @@ body {
 
 .hero {
   background: rgba(17, 17, 17, 0.4);
+  padding-top: 381px;
+  padding-bottom: 117px;
 }
 
 .hero-title {
@@ -81,6 +87,7 @@ body {
 
 .benefits {
   background-color: #1e1823;
+  padding: 50px 0;
 }
 
 .benefits-subtitle {
@@ -95,6 +102,11 @@ body {
   line-height: 1.28571;
   letter-spacing: -0.02em;
   color: rgba(255, 255, 255, 0.7);
+}
+
+.ingradients {
+  padding-top: 120px;
+  padding-bottom: 60px;
 }
 
 .ingredients-title {
@@ -132,4 +144,25 @@ body {
 
 .ingredients-item:nth-child(2n) .ingredients-subtitle {
   color: #111;
+}
+
+.made {
+  padding: 60px 0;
+}
+
+.products {
+  padding: 60px 0;
+}
+
+.bestsellers {
+  padding: 60px 0;
+}
+
+.reviews {
+  padding-top: 160px;
+  padding-bottom: 120px;
+}
+
+.footer {
+  padding: 50px 0;
 }
